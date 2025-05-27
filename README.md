@@ -16,5 +16,5 @@ These files are intended for educational or testing purposes, such as:
 - working with spreadsheets and reports
 
 ## Note
-
+**Author:** Lenka Ertl 
 This repository is for testing purposes only. It does not contain any real personal data.
