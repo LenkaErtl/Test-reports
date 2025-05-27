@@ -1,0 +1,160 @@
+"ID","Title","Assigned To","Automation Type","Case Assigned To","Case ID","Comment","Defects","Elapsed","Estimate","Expected Result","Forecast","Goals","In Progress","Mission","Plan","Plan ID","Preconditions","Priority","References","Run","Run Configuration","Run ID","Section","Section Depth","Section Description","Section Hierarchy","Status","Steps","Steps","Steps (Actual Result)","Steps (Additional Info)","Steps (Expected Result)","Steps (References)","Steps (Shared step ID)","Steps (Status)","Steps (Step)","Template","Tested By","Tested On","Type","Version"
+"T4123","Vytvoření dobropisu se změnou dodací adresy",""," None","","C1365","","","","","Jednoduché vytvoření dobropisu s jednoduchou změnou dodací adresy.","","","","","","","https://app.idoklad.cz/ProformaInvoice","Medium","","lenka Ertl - idoklad","","R79","Dobropis","1","","Lenka Ertl > Dobropis","Passed","1) Načtení a přihlášení se na stránce = https://app.idoklad.cz/ProformaInvoice
+2) kolonka prodej - dobropis
+3) nová
+4) vytvoření dobropisu
+5) změna dodací adresy
+6) doplnění nové adresy do adresáře
+
+","","","","","","","","","Test Case (Text)","Johny Tester","2/24/2025 12:17 PM","Other",""
+"T4124","Kontrola dobropisu zda je idokladu správně uvedená změněná dodací adresa",""," None","","C1366","","","","","V dobropisu je správně uvedená opravená dodací adresa.","","","","","","","https://app.idoklad.cz/ProformaInvoice","Medium","","lenka Ertl - idoklad","","R79","Dobropis","1","","Lenka Ertl > Dobropis","Passed","1) přihlášení se na web - https://app.idoklad.cz/ProformaInvoice
+2) prodej - dobropis
+3) klik na vytvořený dobropis = číslo dokladu
+4) kontrola změněné dodací adresy
+
+","","","","","","","","","Test Case (Text)","Johny Tester","2/24/2025 12:17 PM","Other",""
+"T4125","Kontrola dobropisu zda je správně uvedená změněná dodací adresa v pdf",""," None","","C1367","","","","","V dobropisu je správně uvedená změněná dodací adresa.","","","","","","","https://app.idoklad.cz/ProformaInvoice","Medium","","lenka Ertl - idoklad","","R79","Dobropis","1","","Lenka Ertl > Dobropis","Passed","1) načtení stránky a přihlášení - https://app.idoklad.cz/ProformaInvoice
+2) Prodej - dobropis
+3) export do pdf","","","","","","","","","Test Case (Text)","Johny Tester","2/24/2025 12:17 PM","Other",""
+"T4126","úprava již vytvořeného dopropisu, zrušení změněné dodací adresy",""," None","","C1368","","","","","V dobropisu je správně uvedená dodací adresa a zrušená jiná dodací adresa.","","","","","","","https://app.idoklad.cz/ProformaInvoice","Medium","","lenka Ertl - idoklad","","R79","Dobropis","1","","Lenka Ertl > Dobropis","Passed","1) přihlášení se na web - https://app.idoklad.cz/ProformaInvoice
+2) prodej - dobropis
+3) klik na vytvořenou fakturu = číslo dokladu
+4) zrušení jiné dodací adresy
+
+","","","","","","","","","Test Case (Text)","Johny Tester","2/24/2025 12:18 PM","Other",""
+"T4127","vytvoření vydané faktury se změnou dodací adresy",""," None","","C1376","","","","","Jednoduché vytvoření vydané faktury s jednoduchou změnou dodací adresy.","","","","","","","https://app.idoklad.cz/IssuedInvoice?page=1","Medium","","lenka Ertl - idoklad","","R79","Faktura vydaná","1","","Lenka Ertl > Faktura vydaná","Passed","1) přihlášení se na web - https://app.idoklad.cz/ProformaInvoice
+2) prodej - faktury vydané
+3) vytvoření faktury
+4) upravit odběratele
+
+","","","","","","","","","Test Case (Text)","Johny Tester","2/24/2025 12:18 PM","Other",""
+"T4128","kontrola vydané faktury zda je v idokladu správně uvedená změněná dodací adresa",""," None","","C1382","","","","","Ve vydaných fakturách je správně uvedená opravená dodací adresa.","","","","","","","https://app.idoklad.cz/ProformaInvoice","Medium","","lenka Ertl - idoklad","","R79","Faktura vydaná","1","","Lenka Ertl > Faktura vydaná","Passed","1) přihlášení se na web - https://app.idoklad.cz/ProformaInvoice
+2) prodej - vydané faktury
+3) klik na vytvořený dobropis = číslo dokladu
+4) kontrola změněné dodací adresy
+
+","","","","","","","","","Test Case (Text)","Johny Tester","2/24/2025 12:18 PM","Other",""
+"T4129","kontrola vydané faktury v pdf - zda adresa byla změněna",""," None","","C1384","","","","","Ve vydané faktuře je správně uvedená změněná dodací adresa.","","","","","","","https://app.idoklad.cz/ProformaInvoice","Medium","","lenka Ertl - idoklad","","R79","Faktura vydaná","1","","Lenka Ertl > Faktura vydaná","Passed","1) načtení stránky a přihlášení - https://app.idoklad.cz/ProformaInvoice
+2) Prodej - vydaná faktura
+3) export do pdf","","","","","","","","","Test Case (Text)","Johny Tester","2/24/2025 12:18 PM","Other",""
+"T4130","Zrušení změněné dodací adresy ve vydané faktuře",""," None","","C1385","","","","","Ve vydané faktuře je správně uvedená dodací adresa a zrušená jiná dodací adresa.","","","","","","","https://app.idoklad.cz/ProformaInvoice
+
+","Medium","","lenka Ertl - idoklad","","R79","Faktura vydaná","1","","Lenka Ertl > Faktura vydaná","Passed","1) přihlášení se na web - https://app.idoklad.cz/ProformaInvoice
+2) prodej - vydaná faktura
+3) klik na vytvořenou fakturu = číslo dokladu
+4) zrušení jiné dodací adresy","","","","","","","","","Test Case (Text)","Johny Tester","2/24/2025 12:18 PM","Other",""
+"T4134","vytvoření dodací adresy v adresáři",""," None","","C1393","","","","","Jednoduché a bezproblémové doplnění nové dodací adresy.","","","","","","","https://app.idoklad.cz/Contact","Medium","","lenka Ertl - idoklad","","R79","Adresář","1","","Lenka Ertl > Adresář","Passed","1) přihlásit se na web - https://app.idoklad.cz/Contact
+2) klik na adresář = dodací adres
+3) vybrat firmu - upravit
+4) dodací adresy - nová
+5) doplnit údaje o další dodací adrese
+6) uložit","","","","","","","","","Test Case (Text)","Johny Tester","2/24/2025 12:20 PM","Other",""
+"T4135","změna již ve vytvořené dodací adrese v adresáři",""," None","","C1397","","","","","Jednoduché a bezproblémové upravení nové dodací adresy.","","","","","","","https://app.idoklad.cz/Contact","Medium","","lenka Ertl - idoklad","","R79","Adresář","1","","Lenka Ertl > Adresář","Passed","1) přihlásit se na web - https://app.idoklad.cz/Contact
+2) klik na adresář = dodací adresy
+3) kliknout upravit = upravit potřebné
+4) uložit
+","","","","","","","","","Test Case (Text)","Johny Tester","2/24/2025 12:23 PM","Other",""
+"T4136","smazání dodacích adres v adresáři",""," None","","C1398","","","","","Bezproblémové smazání doplněné dodací adresy z adresáře.","","","","","","","https://app.idoklad.cz/Contact","Medium","","lenka Ertl - idoklad","","R79","Adresář","1","","Lenka Ertl > Adresář","Passed","1) přihlásit se na web - https://app.idoklad.cz/Contact
+2) klik na adresář = dodací adresy
+3) kliknout upravit
+4) smazat
+4) uložit
+","","","","","","","","","Test Case (Text)","Johny Tester","2/24/2025 12:27 PM","Other",""
+"T4137","test se speciálními znaky zadání adresy v adresáři",""," None","","C1399","Uložení nesmyslné adresy proběhlo, chybová hláška nevyskočila.
+ ![](index.php?/attachments/get/53) 
+","","","","Adresa by neměla jít uložit.","","","","","","","https://app.idoklad.cz/Contact/Preview/20357733/Addresses","Medium","","lenka Ertl - idoklad","","R79","Adresář","1","","Lenka Ertl > Adresář","Failed","1) přihlásit se na web - https://app.idoklad.cz/Contact
+2) klik na adresář = dodací adres
+3) vybrat firmu - upravit
+4) dodací adresy - nová
+5) doplnit údaje o další dodací adrese = vyplnit jen speciální znaky
+ ![](index.php?/attachments/get/52) 
+6) uložit","","","","","","","","","Test Case (Text)","Johny Tester","2/24/2025 12:33 PM","Other",""
+"T4138","test maximálního počtu znaků pro psč = 11 znaků",""," None","","C1400","vyskočila upozorňující hláška, že je možné zadat jen 11 znaků u psč.
+
+připomínka: bylo by dobré, aby to již hlásilo při vyplňování, pole vypadá, že žádný limit nemá a vyskočí to až při uložení.","","","","upozornění na chybu při vyplnění více než 11 znaků u psč. 
+","","","","","","","https://app.idoklad.cz/Contact/Edit/20357733/Addresses","Medium","","lenka Ertl - idoklad","","R79","Adresář","1","","Lenka Ertl > Adresář","Passed","1) přihlásit se na web - https://app.idoklad.cz/Contact
+2) klik na adresář = dodací adres
+3) vybrat firmu - upravit
+4) dodací adresy - nová
+5) zadání psč - při psaní se to tváří jako neomezené pole, max.11 znaků
+5) doplnit maximum znaků = 11 a uložit","","","","","","","","","Test Case (Text)","Johny Tester","2/24/2025 12:41 PM","Other",""
+"T4139","test maximálního počtu znaků u názvu dodací adresy",""," None","","C1401","Políčko název dodací adresy nemá limit počtu znaků = může být nekonečno.","","","","Vyskočí chybová hláška a nepůjde uložit. Ukáže se limit.","","","","","","","https://app.idoklad.cz/Contact/Edit/20357733/Addresses","Medium","","lenka Ertl - idoklad","","R79","Adresář","1","","Lenka Ertl > Adresář","Failed","1) přihlásit se na web - https://app.idoklad.cz/Contact
+2) klik na adresář = dodací adres
+3) vybrat firmu - upravit
+4) dodací adresy - nová
+5) doplnit údaje o další dodací adrese = maximum u názvu dodací adresy","","","","","","","","","Test Case (Text)","Johny Tester","2/24/2025 12:50 PM","Other",""
+"T4140","test maximálního počtu znaků u ulice = 100 znaků",""," None","","C1402"," ![](index.php?/attachments/get/54) ","","","","Půjde uložit jen při splnění počtu znaků = 100 znaků.","","","","","","","https://app.idoklad.cz/Contact/Edit/20357733/Addresses","Medium","","lenka Ertl - idoklad","","R79","Adresář","1","","Lenka Ertl > Adresář","Passed","1) přihlásit se na web - https://app.idoklad.cz/Contact
+2) klik na adresář = dodací adres
+3) vybrat firmu - upravit
+4) dodací adresy - nová
+5) doplnit údaje o další dodací adrese = maximum u ulice =100 znaků
+
+","","","","","","","","","Test Case (Text)","Johny Tester","2/24/2025 12:52 PM","Other",""
+"T4141","test maximálního počtu znaků u města = 50 znaků",""," None","","C1403"," ![](index.php?/attachments/get/55)","","","","Půjde uložit jen při splnění počtu znaků = 50 znaků.","","","","","","","https://app.idoklad.cz/Contact/Edit/20357733/Addresses","Medium","","lenka Ertl - idoklad","","R79","Adresář","1","","Lenka Ertl > Adresář","Passed","1) přihlásit se na web - https://app.idoklad.cz/Contact
+2) klik na adresář = dodací adres
+3) vybrat firmu - upravit
+4) dodací adresy - nová
+5) doplnit údaje o další dodací adrese = maximum u města =50 znaků","","","","","","","","","Test Case (Text)","Johny Tester","2/24/2025 12:57 PM","Other",""
+"T4142","test u nevyplnění všech polí u nové dodací adresy",""," None","","C1404","dodací adresa se uloží a vůbec tomu nevadí, že zbytek polí je prázdných. Povinné pole pro uložení je jen ,,Název dodací adresy""""""""
+ ![](index.php?/attachments/get/57) 
+","","","","Vyskočí chybová hláška a nepůjde bez kompletně zadané adresy vyplnit.
+","","","","","","","https://app.idoklad.cz/Contact/Edit/20357733/Addresses","Medium","","lenka Ertl - idoklad","","R79","Adresář","1","","Lenka Ertl > Adresář","Failed","1) přihlásit se na web - https://app.idoklad.cz/Contact
+2) klik na adresář = dodací adres
+3) vybrat firmu - upravit
+4) dodací adresy - nová
+5) vyplním jen název dodací adresy (dddwwww) a zbytek nechám prázdný
+6) uložit
+","","","","","","","","","Test Case (Text)","Johny Tester","2/24/2025 1:04 PM","Other",""
+"T4143","test na nesprávně zadané psč",""," None","","C1405","Nevyskočí chybová hláška a psč s novou adresou se uloží
+ ![](index.php?/attachments/get/56) 
+","","","","Vyskočí chybová hláška a adresa s nesmyslným psč se neuloží. ","","","","","","","https://app.idoklad.cz/Contact/Edit/20357733/Addresses
+
+","Medium","","lenka Ertl - idoklad","","R79","Adresář","1","","Lenka Ertl > Adresář","Failed","1) přihlásit se na web - https://app.idoklad.cz/Contact
+2) klik na adresář = dodací adres
+3) vybrat firmu - upravit
+4) dodací adresy - nová
+5) zadání psč - při psaní se to tváří jako neomezené pole, max.11 znaků
+5) doplnit maximum znaků = 11 ale vyplním nesmysl = 	heheaadfght","","","","","","","","","Test Case (Text)","Johny Tester","2/24/2025 12:58 PM","Other",""
+"T4119","Vytvoření zálohové faktury se změnou dodací adresy",""," None","","C1361","","","","","Jednoduché vytvoření zálohové faktury s jednoduchou změnou dodací adresy.","","","","","","","https://app.idoklad.cz/ProformaInvoice","Medium","","lenka Ertl - idoklad","","R79","Zálohová faktura","1","","Lenka Ertl > Zálohová faktura","Passed","1) Načtení a přihlášení se na stránce = https://app.idoklad.cz/ProformaInvoice
+2) kolonka prodej - zálohové faktury
+3) nová
+4) vytvoření zálohové faktury
+5) změna dodací adresy
+6) doplnění nové adresy do adresáře
+
+","","","","","","","","","Test Case (Text)","Johny Tester","2/24/2025 12:18 PM","Other",""
+"T4120","kontrola vytvořené faktury v pdf -  zda adresa byla změněna",""," None","","C1362","","","","","V zálohové faktuře je správně uvedená změněná dodací adresa.","","","","","","","https://app.idoklad.cz/ProformaInvoice","Medium","","lenka Ertl - idoklad","","R79","Zálohová faktura","1","","Lenka Ertl > Zálohová faktura","Passed","1) načtení stránky a přihlášení - https://app.idoklad.cz/ProformaInvoice
+2) Prodej - zálohové faktury
+3) export do pdf","","","","","","","","","Test Case (Text)","Johny Tester","2/24/2025 12:18 PM","Other",""
+"T4121","Kontrola zálohové faktury, jestli je v idokladu změněna dodací adresa",""," None","","C1363","","","","","V zálohové faktuře je správně uvedená opravená dodací adresa.","","","","","","","https://app.idoklad.cz/ProformaInvoice","Medium","","lenka Ertl - idoklad","","R79","Zálohová faktura","1","","Lenka Ertl > Zálohová faktura","Passed","1) přihlášení se na web - https://app.idoklad.cz/ProformaInvoice
+2) prodej - zálohové faktury
+3) klik na vytvořenou fakturu = číslo dokladu
+4) kontrola změněné dodací adresy
+ ","","","","","","","","","Test Case (Text)","Johny Tester","2/24/2025 12:18 PM","Other",""
+"T4122","zrušení  vyplněné dodací adresy",""," None","","C1364","","","","","V zálohové faktuře je správně uvedená dodací adresa a zrušená jiná dodací adresa.","","","","","","","https://app.idoklad.cz/ProformaInvoice","Medium","","lenka Ertl - idoklad","","R79","Zálohová faktura","1","","Lenka Ertl > Zálohová faktura","Passed","1) přihlášení se na web - https://app.idoklad.cz/ProformaInvoice
+2) prodej - zálohové faktury
+3) klik na vytvořenou fakturu = číslo dokladu
+4) zrušení jiné dodací adresy","","","","","","","","","Test Case (Text)","Johny Tester","2/24/2025 12:18 PM","Other",""
+"T4131","vytvoření cenové nabídky se změnou dodací adresy",""," None","","C1387","","","","","Jednoduché vytvoření cenové nabídky s jednoduchou změnou dodací adresy.","","","","","","","https://app.idoklad.cz/ProformaInvoice","Medium","","lenka Ertl - idoklad","","R79","Cenové nabídky","1","","Lenka Ertl > Cenové nabídky","Passed","1) Načtení a přihlášení se na stránce = https://app.idoklad.cz/ProformaInvoice
+2) kolonka prodej - cenové nabídky
+3) nová
+4) vytvoření nové cenové nabídky
+5) změna dodací adresy
+6) doplnění nové adresy do adresáře
+
+","","","","","","","","","Test Case (Text)","Johny Tester","2/24/2025 12:18 PM","Other",""
+"T4132","kontrola vytvořené cenové nabídky v pdf - zda byla změněna dodací adresa",""," None","","C1389","","","","","V cenové nabídce je správně uvedená změněná dodací adresa.","","","","","","","https://app.idoklad.cz/ProformaInvoice","Medium","","lenka Ertl - idoklad","","R79","Cenové nabídky","1","","Lenka Ertl > Cenové nabídky","Passed","1) načtení stránky a přihlášení - https://app.idoklad.cz/ProformaInvoice
+2) Prodej - cenové nabídky
+3) export do pdf
+
+","","","","","","","","","Test Case (Text)","Johny Tester","2/24/2025 12:18 PM","Other",""
+"T4133","kontrola vytvořené cenové nabídky v idokladu - zda byla změněna dodací sdresa",""," None","","C1390","","","","","V cenové nabídce je správně uvedená opravená dodací adresa.","","","","","","","https://app.idoklad.cz/ProformaInvoice","Medium","","lenka Ertl - idoklad","","R79","Cenové nabídky","1","","Lenka Ertl > Cenové nabídky","Passed","1) přihlášení se na web - https://app.idoklad.cz/ProformaInvoice
+2) prodej - cenové nabídky
+3) klik na vytvořenou fakturu = číslo dokladu
+4) kontrola změněné dodací adresy
+
+","","","","","","","","","Test Case (Text)","Johny Tester","2/24/2025 12:18 PM","Other",""
+"T4144","zrušení vyplněné dodací adresy u cenové nabídky",""," None","","C1409","","","","","V cenové nabídce je správně uvedená dodací adresa a zrušená jiná dodací adresa.","","","","","","","https://app.idoklad.cz/SalesOrder","Medium","","lenka Ertl - idoklad","","R79","Cenové nabídky","1","","Lenka Ertl > Cenové nabídky","Passed","1) přihlášení se na web - https://app.idoklad.cz/ProformaInvoice
+2) prodej - cenové nabídky
+3) klik na vytvořenou fakturu = číslo dokladu
+4) zrušení jiné dodací adresy","","","","","","","","","Test Case (Text)","Johny Tester","2/24/2025 12:18 PM","Other",""
